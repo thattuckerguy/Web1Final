@@ -10,15 +10,50 @@ h2 {
     font-size: 2em;
     
 }
-h1 {
+
+
+.max-width {
+    max-width: 60em;
+    margin: auto;
+}
+
+#banner {
     position: relative;
-   height: 0;
-    font-size: 2em;
+    background: #999;
+}
+
+#banner h1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: 0 1%;
+     font-size: 2.9em;
     color: #ffffff;
     
 }
 
+#banner .video-content {
+    position: relative;
+    padding-bottom: 39%;
+    height: 0;
+}
 
+
+
+#banner .video-content video {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*
 .vidframe {
   position: relative;
   height: 0;
@@ -34,7 +69,8 @@ h1 {
     padding-bottom: 50%;
        
 }
-#banner {
+#banner .vidframe {
+    position: relative;
   padding-bottom: 39%;
   overflow: hidden;
   }
@@ -43,6 +79,7 @@ h1 {
   position: relative;
   z-index: 2;
   }
+*/
 
 figure {
   margin: 0;
@@ -98,6 +135,7 @@ figure .landscape img {
     font-size: 1.5em;
     
 }
+/*
     h1 {
     position: relative;
     height: 0;
@@ -106,6 +144,7 @@ figure .landscape img {
     color: #ffffff;
     
 }
+*/
 li {
     display: inline;
     padding-left: 2em;
